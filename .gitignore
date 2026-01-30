@@ -1,25 +1,17 @@
-# Python
+# Python virtual environment
+venv/
+.venv/
+
+# Cache
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
-.env
-.venv/
-venv/
-pyvenv.cfg
 
 # VS Code
 .vscode/
 
-# OS
-.DS_Store
-
-# Chroma / Vector DB
+# DB / Vector stores
 chroma_db/
 *.sqlite3
 
-# Node
-node_modules/
-
-# Logs
-*.log
+# OS
+.DS_Store
